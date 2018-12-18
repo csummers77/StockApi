@@ -41,7 +41,8 @@ $(document).ready(()=>{
             `)
             })
         
-        })
+        });
+        $('#stock-table').DataTable();
     });
 });
 
